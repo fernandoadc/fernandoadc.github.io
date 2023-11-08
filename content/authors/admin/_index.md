@@ -3,7 +3,7 @@
 title: 
 
 # Name pronunciation (optional)
-name_pronunciation: Fernando Almeida
+name_pronunciation: Fernando Almeida do Carmo
 
 # Full name (for SEO)
 first_name: Fernando
@@ -21,11 +21,11 @@ role: Researcher in Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Universidade Federal do Oeste do Pará
-    url: https://www.stanford.edu/
+  - name: Federal University of Western Pará
+    url: https://www.ufopa.edu.br/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include data analysis, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
@@ -120,5 +120,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Fernando Almeida is a computer science student and researcher in artificial intelligence at the Applied Computing Laboratory. Her research interests include distributed robotics, mobile computing and text mining.
 {style="text-align: justify;"}
