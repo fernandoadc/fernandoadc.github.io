@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Fernando Almeida do Carmo
+title: 
 
 # Name pronunciation (optional)
 name_pronunciation: Fernando Almeida
