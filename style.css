@@ -35,3 +35,27 @@ nav a:focus-visible {
 }
 
 .name a, nav a { transition: color .15s; }
+
+/* Telas grandes: fonte maior e página ocupando mais espaço */
+@media (min-width: 1100px) {
+  body { font-size: 17px; line-height: 1.85; }
+  .wrap {
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 120px;
+    padding: 60px 140px;
+    max-width: none;
+  }
+  .photo { width: 220px; height: 220px; }
+  .name { font-size: 26px; }
+  nav { font-size: 15px; margin-left: 22px; }
+  h2 { font-size: 21px; }
+  footer { font-size: 15px; }
+}
+
+/* Telas muito grandes */
+@media (min-width: 1600px) {
+  body { font-size: 18px; }
+  .wrap { padding: 70px 200px; }
+  .photo { width: 240px; height: 240px; }
+  .wrap { grid-template-columns: 240px minmax(0, 1fr); }
+}
