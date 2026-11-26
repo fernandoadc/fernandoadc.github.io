@@ -1,0 +1,37 @@
+:root{--fg:#333;--muted:#666;--link:#1a66b0;--rule:#aaa}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.8 "Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--fg);background:#fff}
+a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.wrap{display:grid;grid-template-columns:180px minmax(0,1fr);gap:119px;padding:50px 120px;max-width:1600px}
+.photo{width:180px;height:180px;object-fit:cover;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,.2);background:#e6e6e6}
+.name{font-size:20px;font-weight:700;color:#222;line-height:1.3}.name a{color:inherit}
+nav{margin:2px 0 0 19px;font-size:13px}nav a{color:var(--muted);margin-right:16px}
+hr{border:0;border-top:1px solid var(--rule);margin:20px 0 28px}
+h2{font-size:18px;margin:34px 0 10px;color:#222}
+p{margin:0 0 12px}ul{padding-left:22px;margin:0}li{margin:4px 0}
+footer{border-top:1px solid var(--rule);margin-top:46px;padding-top:12px;font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:12px 48px;line-height:1.85}
+.bib{margin-top:8px}
+.bar{display:flex;align-items:center;justify-content:space-between}
+.menu{display:none;background:none;border:0;padding:12px;margin-right:-12px;cursor:pointer;color:#222}
+.menu:focus-visible{outline:2px solid var(--link)}
+.menu span,.menu span::before,.menu span::after{display:block;width:22px;height:2px;background:currentColor;content:""}
+.menu span{position:relative}.menu span::before{position:absolute;top:-7px}.menu span::after{position:absolute;top:7px}
+@media(max-width:800px){
+.wrap{grid-template-columns:1fr;gap:20px;padding:28px 20px}
+aside{display:flex;justify-content:center}
+.photo{width:200px;height:200px}
+.menu{display:block}
+nav{display:none;margin:6px 0 0}nav.open{display:flex;flex-direction:column}
+nav a{margin:0;padding:8px 0;font-size:15px}
+hr{margin:14px 0 24px}}
+
+/* Cor ao passar o mouse no nome e no menu (sem sublinhado) */
+.name a:hover,
+nav a:hover,
+.name a:focus-visible,
+nav a:focus-visible {
+  color: #1a66b0;          /* azul */
+  text-decoration: none;
+}
+
+.name a, nav a { transition: color .15s; }
